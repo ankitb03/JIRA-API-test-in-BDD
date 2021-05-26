@@ -1,0 +1,63 @@
+Request method:	POST
+Request URI:	https://myfirstproject03.atlassian.net/rest/api/3/issue/MYF-6/attachments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	IssueKey=MYF-6
+Headers:		X-Atlassian-Token=no-check
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = TestFile.txt
+				Content-Type: application/octet-stream
+
+				TestFile.txt
+Body:			<none>
+HTTP/1.1 200 OK
+Server: AtlassianProxy/1.19.3.1
+vary: Accept-Encoding
+cache-control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+content-encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 26 May 2021 11:36:47 GMT
+ATL-TraceId: 9b56b8457f707653
+x-arequestid: f90ac201-fab6-4b29-b65f-9567d076c500
+x-aaccountid: 609e1a30391e56006e14028e
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+timing-allow-origin: *
+x-envoy-upstream-service-time: 1372
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+set-cookie: atlassian.xsrf.token=35d4598f-b64c-4352-8341-a7e4c0df756b_0fd59a0ed8028be110793b2dfff0cfea506fb7b4_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+[
+    {
+        "self": "https://myfirstproject03.atlassian.net/rest/api/3/attachment/10006",
+        "id": "10006",
+        "filename": "TestFile.txt",
+        "author": {
+            "self": "https://myfirstproject03.atlassian.net/rest/api/3/user?accountId=609e1a30391e56006e14028e",
+            "accountId": "609e1a30391e56006e14028e",
+            "emailAddress": "ankit.bansal.hisar@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/818dc11f81ea2a4caaeae9d11b9a0013?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-3.png",
+                "24x24": "https://secure.gravatar.com/avatar/818dc11f81ea2a4caaeae9d11b9a0013?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-3.png",
+                "16x16": "https://secure.gravatar.com/avatar/818dc11f81ea2a4caaeae9d11b9a0013?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-3.png",
+                "32x32": "https://secure.gravatar.com/avatar/818dc11f81ea2a4caaeae9d11b9a0013?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-3.png"
+            },
+            "displayName": "Ankit Bansal",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "atlassian"
+        },
+        "created": "2021-05-26T11:36:46.535+0000",
+        "size": 19,
+        "mimeType": "text/plain",
+        "content": "https://myfirstproject03.atlassian.net/secure/attachment/10006/TestFile.txt"
+    }
+]
